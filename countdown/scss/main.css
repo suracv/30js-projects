@@ -1,0 +1,135 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  font-size: 16px;
+  color: black;
+  font-family: "Playfair Display", serif;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
+  overflow-x: hidden !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*breakpoints*/
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1140px;
+    width: 100%;
+  }
+}
+
+h1,
+h2,
+h3,
+h4, p {
+  padding: 8px 0;
+  font: italic 400 30px/40px Playfair Display, Arial;
+  color: #333;
+}
+
+.counter {
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.counter .container {
+  text-align: center;
+}
+
+.counter__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.counter__container .countdown {
+  text-align: center;
+  width: 88px;
+}
+
+.counter__container .countdown span {
+  font-size: 1.4rem;
+}
+
+.counter__container .countdown h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.counter__container .countdown p {
+  font-size: 3.7rem;
+  line-height: 1;
+  margin: 1rem;
+}
+/*# sourceMappingURL=main.css.map */

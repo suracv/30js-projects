@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  font-size: 16px;
+  color: black;
+  font-family: "Playfair Display", serif;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
+  overflow-x: hidden !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  // padding-right: 15px;
+  // padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*breakpoints*/
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1140px;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 1366px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 860px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+h1,
+h2,
+h3,
+h4,p {
+  padding: 8px 0;
+  font: italic 400 30px/40px Playfair Display, Arial;
+  color: #333;
+}
+.counter{
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  .container{
+    text-align: center;
+
+  }
+&__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .countdown {
+    text-align: center;
+    width: 88px;
+    span {
+      font-size: 1.4rem;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    p {
+       font-size: 3.7rem;
+      line-height: 1;
+      margin: 1rem;
+    }
+  }
+}
+}
+
